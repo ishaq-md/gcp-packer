@@ -6,7 +6,7 @@
 	"project_id": "midevlab",
 	"source_image":"debian-9-stretch-v20201216",
 	"ssh_username":"packer",
-	"image_name":"cg02",
+	"image_name":"img-01,
 	"disk_size":"10",
 	"zone":"us-central1-a"
 		}
