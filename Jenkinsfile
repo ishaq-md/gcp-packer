@@ -1,8 +1,5 @@
 pipeline {
     agent any
-	parameters {
-		string(name: 'FROM_BUILD', defaultValue: ''. description: 'Build source')
-	}
     
     environment {
     SVC_ACCOUNT_KEY = credentials('terraform-auth')
