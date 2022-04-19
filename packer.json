@@ -6,7 +6,7 @@
 	"project_id": "midevop",
 	"source_image":"debian-9-stretch-v20220118",
 	"ssh_username":"packer",
-	"image_name":"thursday-mi",
+	"image_name":"thursday-$BUILD_ID",
 	"disk_size":"10",
 	"zone":"us-central1-a"
 		}
