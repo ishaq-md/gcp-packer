@@ -8,6 +8,7 @@
 	"ssh_username":"packer",
 	"image_name":"thursday-$BUILD_ID",
 	"disk_size":"10",
+	"metadata": { "enable-oslogin": "false" },
 	"zone":"us-central1-a"
 		}
 	],
