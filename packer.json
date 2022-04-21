@@ -4,7 +4,7 @@
 	"type":"googlecompute",
 	"account_file":"terraform.json",
 	"project_id": "midevop",
-	"source_image":"debian-9-stretch-v20220118",
+	"source_image":"debian-10-buster-v20220406",
 	"ssh_username":"packer",
 	"image_name":"thursday-$BUILD_ID",
 	"disk_size":"10",
